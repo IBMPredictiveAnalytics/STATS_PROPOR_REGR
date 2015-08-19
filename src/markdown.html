@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<!-- saved from url=(0014)about:internet -->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=9" >
+
+<title>STATS PROPOR REGR Extension Command</title>
+
+<link rel="stylesheet" type="text/css" href="extsyntax.css" />
+
+
+
+
+
+</head>
+
+<body>
+<h1>STATS PROPOR REGR Extension Command</h1>
+
+<p>This procedure estimates the mean and variance of
+a beta-distributed proportion as a generalized linear mode as a
+function of a set of predictors for the mean and variance parameters.
+The companion command, STATS PROPOR REGRPRED can be used to
+make predictions from the output of this command.</p>
+<div class="syntax">
+<p>STATS PROPOR REGR DEPENDENT=<em>varname</em><sup>&#42;</sup>
+    INDEP=<em>independent variables</em><sup>&#42;</sup> INDEPPRE=<em>precision model variables</em>
+    ID=<em>varname</em><br/>
+    LINK = LOGIT<sup>&#42;&#42;</sup> or PROBIT or CLOGLOG or CAUCHIT or LOG or LOGLOG
+    PLINK = LOG<sup>&#42;&#42;</sup> or SQRT or IDENTIFY
+    OFFSET = <em>variables</em></p>
+
+<p>/OPTIONS ESTIMATOR=ML<sup>&#42;&#42;</sup> or BC or BR
+    MISSING=OMIT<sup>&#42;&#42;</sup> or STOP
+    MAXITER = <em>number</em> FSMAXITER = <em>number</em> FSTOL = <em>value</em>
+    RESIDS = YES or NO COOKS = YES or NO LEVERAGE = YES or NO
+    RESIDSLIN = YES or NO HALFNORMAL = YES or NO PREDOBS = YES or NO
+    PRESIDTYPE = PEARSON or SWEIGHTED2 or DEVIANCE or 
+        RESPONSE or WEIGHTED or SWEIGHTED</p>
+
+<p>/SAVE DATASET = <em>new dataset name</em>
+    RESIDUALS = PEARSON<sup>&#42;&#42;</sup> or SWEIGHTED2 or DEVIANCE or RESPONSE or
+        WEIGHTED or SWEIGHTED
+    FITTED = RESPONSEMEAN or LINK or RESPONSEVAR
+    RETAIN = YES or NO<sup>&#42;&#42;</sup>
+    RFILE = &ldquo;<em>filespec</em>&rdquo;</p>
+
+<p>/HELP</p>
+
+
+
+<p><sup>&#42;</sup> Required<br/>
+<sup>&#42;&#42;</sup> Default</p>
+</div>
+<p>STATS PROPOR REGR /HELP prints this help and does nothing else.</p>
+
+<pre class="example"><code>STATS PROPOR REGR DEPENDENT = yield INDEP = batch temperature pressure.
+</code></pre>
+
+<p><strong>DEPENDENT</strong> and <strong>INDEP</strong> specify the dependent and independent variables.
+Categorical variables are converted to factors.</p>
+
+<p><strong>INDEPPRE</strong> can specify variables for the precision model.  A variable
+can appear in both the INDEP and INDEPPRE list.  Categorical variables
+are converted to factors.</p>
+
+<p><strong>ID</strong> specifies an ID variable that will be used if an output dataset is
+created.</p>
+
+<p><strong>LINK</strong> specifies the generalized linear model link function.</p>
+
+<p><strong>PLINK</strong> specifyies the link function for the precision model.</p>
+
+<p><strong>OFFSET</strong> specifies an offset variable for the mean model.</p>
+
+<h2>OPTIONS</h2>
+
+<p><strong>ESTIMATOR</strong> specifies the estimator to be used.  The choices are</p>
+
+<ul>
+<li><strong>ML</strong>: maximum likelihood </li>
+<li><strong>BC</strong>: maximum likelihood with bias correction</li>
+<li><strong>BR</strong>: maximum likelihood with bias reduction</li>
+</ul>
+
+<p><strong>MISSING</strong> specifies whether to omit cases with missing values or
+stop if any are found.</p>
+
+<p><strong>MAXITER</strong> specifies the maximum number of main iterations.  The
+default is 5000.</p>
+
+<p><strong>FSMAXITER</strong> specifies the maximum number of Fischer scoring iterations.
+The default is 200.</p>
+
+<p>The remaining keywords on OPTIONS specify what plots to create
+and the type of residuals to be used in these plots.  SWEIGHTED2
+residuals are recommended but may be too time consuming with
+large datasets.
+See Espinheira, P.L., Ferrari, S.L.P., and Cribari-Neto, F. (2008). 
+<em>On Beta Regression Residuals</em>, Journal of Applied Statistics, 35(4), 407-419.
+for detailed definitions.</p>
+
+<h2>SAVE</h2>
+
+<p>The SAVE subcommand specifies an output dataset for residuals and
+predicted values from the model and whether to keep the R workspace.</p>
+
+<p><strong>DATASET</strong> must specify a name for a new dataset that will hold these
+variables.</p>
+
+<p><strong>RESIDUALS</strong> specifies the type of residuals to save.</p>
+
+<p><strong>FITTED</strong> specifies the type of fitted values.</p>
+
+<p><strong>RFILE</strong> specifies the name of an R workspace file to hold the model results
+for future use in prediction.</p>
+
+<p><strong>RETAIN</strong> specifies whether to retain the model results in the active
+R workspace for use for prediction in the current session.</p>
+
+<p>&copy; Copyright IBM Corp. 1989, 2014</p>
+
+</body>
+
+</html>
+
