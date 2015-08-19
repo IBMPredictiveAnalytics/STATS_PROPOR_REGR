@@ -1,0 +1,47 @@
+<!-- ***************************************************************** -->
+<!--                                                                   -->
+<!-- Licensed Materials - Property of IBM                              -->
+<!--                                                                   -->
+<!-- IBM SPSS Products: Statistics Common                              -->
+<!--                                                                   -->
+<!-- (C) Copyright IBM Corp. 1989, 2013                                -->
+<!--                                                                   -->
+<!-- US Government Users Restricted Rights - Use, duplication or       -->
+<!-- disclosure restricted by GSA ADP Schedule Contract with IBM       -->
+<!-- Corp.                                                             -->
+<!--                                                                   -->
+<!-- ***************************************************************** -->
+<!-- edited with XMLSPY v2004 rel. 3 U (http://www.xmlspy.com) by Jon Peck (SPSS Inc.) -->
+<Command xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www-01.ibm.com/software/analytics/spss/xml/extension-1.0.xsd" Name="STATS PROPOR REGR" Language="R">
+	<Subcommand Name="">
+		<Parameter Name="DEPENDENT" ParameterType="VariableName"/>
+		<Parameter Name="INDEP" ParameterType="VariableNameList"/>
+		<Parameter Name="INDEPPRE" ParameterType="VariableNameList"/>
+		<Parameter Name="ID" ParameterType="VariableName"/>
+		<Parameter Name="LINK" ParameterType="Keyword"/>
+		<Parameter Name="PLINK" ParameterType="Keyword"/>
+		<Parameter Name="OFFSET" ParameterType="VariableName"/>
+	</Subcommand>
+	<Subcommand Name="OPTIONS">
+		<Parameter Name="ESTIMATOR" ParameterType="Keyword"/>
+		<Parameter Name="MAXITER" ParameterType="Integer"/>
+		<Parameter Name="FSTOL" ParameterType="Number"/>
+		<Parameter Name="FSMAXITER" ParameterType="Integer"/>
+		<Parameter Name="MISSING" ParameterType="Keyword"/>
+		<Parameter Name="RESIDS" ParameterType="Keyword"/>
+		<Parameter Name="COOKS" ParameterType="Keyword"/>
+		<Parameter Name="LEVERAGE" ParameterType="Keyword"/>
+		<Parameter Name="RESIDSLIN" ParameterType="Keyword"/>
+		<Parameter Name="HALFNORMAL" ParameterType="Keyword"/>
+		<Parameter Name="PREDOBS" ParameterType="Keyword"/>
+		<Parameter Name="PRESIDTYPE" ParameterType="Keyword"/>
+	</Subcommand>
+	<Subcommand Name="SAVE">
+		<Parameter Name="DATASET" ParameterType="DatasetName"/>
+		<Parameter Name="RESIDUALS" ParameterType="Keyword"/>
+		<Parameter Name="FITTED" ParameterType="Keyword"/>
+		<Parameter Name="RFILE" ParameterType="OutputFile"/>
+		<Parameter Name="RETAIN" ParameterType="Keyword"/>
+	</Subcommand>
+	<Subcommand Name="HELP" Occurrence="Optional"/>
+</Command>
