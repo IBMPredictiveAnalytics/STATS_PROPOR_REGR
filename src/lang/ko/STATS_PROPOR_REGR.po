@@ -1,0 +1,261 @@
+#/***********************************************************************
+# * Licensed Materials - Property of IBM 
+# *
+# * IBM SPSS Products: Statistics Common
+# *
+# * (C) Copyright IBM Corp. 1989, 2014
+# *
+# * US Government Users Restricted Rights - Use, duplication or disclosure
+# * restricted by GSA ADP Schedule Contract with IBM Corp. 
+# ************************************************************************/
+
+# NLS_ENCODING=UTF-8
+# IBMUPYTH
+
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: STATS_PROPOR_REGR.R:116
+#: STATS_PROPOR_REGR.R:192
+msgid "Proportional Variable Regression"
+msgstr ""
+"비율 변수 회귀"
+
+#: STATS_PROPOR_REGR.R:117
+msgid "Proportional Variable Regression: Warnings"
+msgstr ""
+"비율 변수 회귀: 경고"
+
+#: STATS_PROPOR_REGR.R:122
+msgid "The R %s package is required but could not be loaded."
+msgstr ""
+"R %s 패키지가 필요하지만 로드할 수 없습니다."
+
+#: STATS_PROPOR_REGR.R:133
+msgid "A dataset name must be specified if residuals or fitted values are requested"
+msgstr ""
+"잔차 또는 적합값이 요청된 경우 데이터 세트 이름을 지정해야 합니다."
+
+#: STATS_PROPOR_REGR.R:146
+msgid "The offset variable must have a scale (continuous) measurement level"
+msgstr ""
+"변위 변수에는 척도(연속형) 측정 수준이 있어야 합니다."
+
+#: STATS_PROPOR_REGR.R:196
+msgid "Dependent Variable"
+msgstr ""
+"종속변수"
+
+#: STATS_PROPOR_REGR.R:197
+msgid "Link Function"
+msgstr ""
+"연결함수"
+
+#: STATS_PROPOR_REGR.R:198
+msgid "Precision Model Link Function"
+msgstr ""
+"정밀 모형 연결함수"
+
+#: STATS_PROPOR_REGR.R:199
+msgid "Offset"
+msgstr ""
+"변위"
+
+#: STATS_PROPOR_REGR.R:200
+msgid "Missing Value Treatment"
+msgstr ""
+"결측값 처리"
+
+#: STATS_PROPOR_REGR.R:201
+msgid "Estimator Type"
+msgstr ""
+"추정량 유형"
+
+#: STATS_PROPOR_REGR.R:202
+msgid "Results Dataset"
+msgstr ""
+"결과 데이터 세트"
+
+#: STATS_PROPOR_REGR.R:203
+msgid "Saved Workspace"
+msgstr ""
+"저장된 작업공간"
+
+#: STATS_PROPOR_REGR.R:204
+msgid "Retain Workspace"
+msgstr ""
+"작업공간 유지"
+
+#: STATS_PROPOR_REGR.R:205
+msgid "Creation Date"
+msgstr ""
+"작성 날짜"
+
+#: STATS_PROPOR_REGR.R:206
+msgid "Convergence"
+msgstr ""
+"수렴"
+
+#: STATS_PROPOR_REGR.R:207
+msgid "Cases"
+msgstr ""
+"케이스"
+
+#: STATS_PROPOR_REGR.R:208
+msgid "Valid Cases"
+msgstr ""
+"유효 케이스"
+
+#: STATS_PROPOR_REGR.R:209
+msgid "Log-Likelihood"
+msgstr ""
+"로그 우도"
+
+#: STATS_PROPOR_REGR.R:210
+msgid "Degrees of Freedom"
+msgstr ""
+"자유도"
+
+#: STATS_PROPOR_REGR.R:211
+msgid "Pseudo R=Squared"
+msgstr ""
+"유추 R=제곱"
+
+#: STATS_PROPOR_REGR.R:212
+msgid "AIC"
+msgstr ""
+"AIC"
+
+#: STATS_PROPOR_REGR.R:213
+msgid "BIC"
+msgstr ""
+"BIC"
+
+#: STATS_PROPOR_REGR.R:214
+msgid "Iterations"
+msgstr ""
+"반복"
+
+#: STATS_PROPOR_REGR.R:215
+msgid "Fisher Scoring Iterations"
+msgstr ""
+"Fisher 점수화 반복"
+
+#: STATS_PROPOR_REGR.R:219
+msgid "Maximum Likelihood"
+msgstr ""
+"최대 우도"
+
+#: STATS_PROPOR_REGR.R:220
+msgid "ML Bias Corrected"
+msgstr ""
+"ML 편향 정정됨"
+
+#: STATS_PROPOR_REGR.R:221
+msgid "ML Bias Reduced"
+msgstr ""
+"ML 편향 축소됨"
+
+#: STATS_PROPOR_REGR.R:228
+#: STATS_PROPOR_REGR.R:231
+#: STATS_PROPOR_REGR.R:232
+#: STATS_PROPOR_REGR.R:240
+msgid "--NA--"
+msgstr ""
+"--해당 없음--"
+
+#: STATS_PROPOR_REGR.R:233
+#: STATS_PROPOR_REGR.R:235
+msgid "Yes"
+msgstr ""
+"예"
+
+#: STATS_PROPOR_REGR.R:233
+#: STATS_PROPOR_REGR.R:235
+msgid "No"
+msgstr ""
+"아니오"
+
+#: STATS_PROPOR_REGR.R:248
+#: STATS_PROPOR_REGR.R:249
+#: STATS_PROPOR_REGR.R:249
+msgid "Summary"
+msgstr ""
+"요약"
+
+#: STATS_PROPOR_REGR.R:250
+msgid "Computations done by R package betareg"
+msgstr ""
+"R 패키지 betareg에 의해 수행된 계산"
+
+#: STATS_PROPOR_REGR.R:255
+msgid "Coefficient"
+msgstr ""
+"계수"
+
+#: STATS_PROPOR_REGR.R:255
+msgid "Std. Error"
+msgstr ""
+"표준오차"
+
+#: STATS_PROPOR_REGR.R:255
+msgid "Z Value"
+msgstr ""
+"Z 값"
+
+#: STATS_PROPOR_REGR.R:255
+msgid "Sig."
+msgstr ""
+"TPL 유의확률"
+
+#: STATS_PROPOR_REGR.R:257
+#: STATS_PROPOR_REGR.R:258
+msgid "Mean Coefficients"
+msgstr ""
+"평균 계수"
+
+#: STATS_PROPOR_REGR.R:262
+#: STATS_PROPOR_REGR.R:263
+msgid "Precision Coefficients"
+msgstr ""
+"정밀도 계수"
+
+#: STATS_PROPOR_REGR.R:288
+msgid "An output dataset was specified but no variables were requested"
+msgstr ""
+"출력 데이터 세트가 지정되었지만 변수가 요청되지 않았습니다."
+
+#: STATS_PROPOR_REGR.R:328
+msgid "Fitted Values, Type=%s"
+msgstr ""
+"적합값, 유형=%s"
+
+#: STATS_PROPOR_REGR.R:332
+msgid "Residuals, Type=%s"
+msgstr ""
+"잔차, 유형=%s"
+
+#: STATS_PROPOR_REGR.R:349
+msgid "The active dataset must have a name if creating new datasets"
+msgstr ""
+"새 데이터 세트를 작성할 때 활성 데이터 세트의 이름이 있어야 합니다."
+
+#: STATS_PROPOR_REGR.R:353
+msgid "One or more specified output dataset names are already in use"
+msgstr ""
+"하나 이상의 지정된 출력 데이터 세트 이름이 이미 사용 중입니다."
+
+#: STATS_PROPOR_REGR.R:430
+msgid "End of procedure"
+msgstr ""
+"프로시저 끝"
+
+#: STATS_PROPOR_REGR.R:457
+msgid "Message Number"
+msgstr ""
+"메시지 번호"
+
+
