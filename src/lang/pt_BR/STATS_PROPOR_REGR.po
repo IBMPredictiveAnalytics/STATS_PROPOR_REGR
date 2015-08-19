@@ -1,0 +1,261 @@
+#/***********************************************************************
+# * Licensed Materials - Property of IBM 
+# *
+# * IBM SPSS Products: Statistics Common
+# *
+# * (C) Copyright IBM Corp. 1989, 2014
+# *
+# * US Government Users Restricted Rights - Use, duplication or disclosure
+# * restricted by GSA ADP Schedule Contract with IBM Corp. 
+# ************************************************************************/
+
+# NLS_ENCODING=UTF-8
+# IBMUPYTH
+
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: STATS_PROPOR_REGR.R:116
+#: STATS_PROPOR_REGR.R:192
+msgid "Proportional Variable Regression"
+msgstr ""
+"Regressão de variável proporcional"
+
+#: STATS_PROPOR_REGR.R:117
+msgid "Proportional Variable Regression: Warnings"
+msgstr ""
+"Regressão de variável proporcional: Avisos"
+
+#: STATS_PROPOR_REGR.R:122
+msgid "The R %s package is required but could not be loaded."
+msgstr ""
+"O pacote R %s é necessário, mas não pôde ser carregado."
+
+#: STATS_PROPOR_REGR.R:133
+msgid "A dataset name must be specified if residuals or fitted values are requested"
+msgstr ""
+"Um nome do conjunto de dados deve ser especificado se valores ajustados ou residuais são solicitados"
+
+#: STATS_PROPOR_REGR.R:146
+msgid "The offset variable must have a scale (continuous) measurement level"
+msgstr ""
+"A variável de offset deve ter um nível de medição de escala (contínuo)"
+
+#: STATS_PROPOR_REGR.R:196
+msgid "Dependent Variable"
+msgstr ""
+"Variável dependente"
+
+#: STATS_PROPOR_REGR.R:197
+msgid "Link Function"
+msgstr ""
+"Função de ligação"
+
+#: STATS_PROPOR_REGR.R:198
+msgid "Precision Model Link Function"
+msgstr ""
+"Função de ligação do modelo de precisão"
+
+#: STATS_PROPOR_REGR.R:199
+msgid "Offset"
+msgstr ""
+"Offset"
+
+#: STATS_PROPOR_REGR.R:200
+msgid "Missing Value Treatment"
+msgstr ""
+"Tratamento de valor omisso"
+
+#: STATS_PROPOR_REGR.R:201
+msgid "Estimator Type"
+msgstr ""
+"Tipo de estimador"
+
+#: STATS_PROPOR_REGR.R:202
+msgid "Results Dataset"
+msgstr ""
+"Conjunto de daados de resultados"
+
+#: STATS_PROPOR_REGR.R:203
+msgid "Saved Workspace"
+msgstr ""
+"Área de trabalho salva"
+
+#: STATS_PROPOR_REGR.R:204
+msgid "Retain Workspace"
+msgstr ""
+"Reter área de trabalho"
+
+#: STATS_PROPOR_REGR.R:205
+msgid "Creation Date"
+msgstr ""
+"Data de criação"
+
+#: STATS_PROPOR_REGR.R:206
+msgid "Convergence"
+msgstr ""
+"Convergência"
+
+#: STATS_PROPOR_REGR.R:207
+msgid "Cases"
+msgstr ""
+"Casos"
+
+#: STATS_PROPOR_REGR.R:208
+msgid "Valid Cases"
+msgstr ""
+"Casos válidos"
+
+#: STATS_PROPOR_REGR.R:209
+msgid "Log-Likelihood"
+msgstr ""
+"Log da verossimilhança"
+
+#: STATS_PROPOR_REGR.R:210
+msgid "Degrees of Freedom"
+msgstr ""
+"Graus de liberdade"
+
+#: STATS_PROPOR_REGR.R:211
+msgid "Pseudo R=Squared"
+msgstr ""
+"Pseudo R=Squared"
+
+#: STATS_PROPOR_REGR.R:212
+msgid "AIC"
+msgstr ""
+"AIC"
+
+#: STATS_PROPOR_REGR.R:213
+msgid "BIC"
+msgstr ""
+"BIC"
+
+#: STATS_PROPOR_REGR.R:214
+msgid "Iterations"
+msgstr ""
+"Iterações"
+
+#: STATS_PROPOR_REGR.R:215
+msgid "Fisher Scoring Iterations"
+msgstr ""
+"Iterações de escoragem de Fisher"
+
+#: STATS_PROPOR_REGR.R:219
+msgid "Maximum Likelihood"
+msgstr ""
+"Máxima Verossimilhança"
+
+#: STATS_PROPOR_REGR.R:220
+msgid "ML Bias Corrected"
+msgstr ""
+"ML viés corrigido"
+
+#: STATS_PROPOR_REGR.R:221
+msgid "ML Bias Reduced"
+msgstr ""
+"ML viés reduzido"
+
+#: STATS_PROPOR_REGR.R:228
+#: STATS_PROPOR_REGR.R:231
+#: STATS_PROPOR_REGR.R:232
+#: STATS_PROPOR_REGR.R:240
+msgid "--NA--"
+msgstr ""
+"--NA--"
+
+#: STATS_PROPOR_REGR.R:233
+#: STATS_PROPOR_REGR.R:235
+msgid "Yes"
+msgstr ""
+"Sim"
+
+#: STATS_PROPOR_REGR.R:233
+#: STATS_PROPOR_REGR.R:235
+msgid "No"
+msgstr ""
+"Não"
+
+#: STATS_PROPOR_REGR.R:248
+#: STATS_PROPOR_REGR.R:249
+#: STATS_PROPOR_REGR.R:249
+msgid "Summary"
+msgstr ""
+"Sumarização"
+
+#: STATS_PROPOR_REGR.R:250
+msgid "Computations done by R package betareg"
+msgstr ""
+"Cálculos feitos pelo betareg do pacote R"
+
+#: STATS_PROPOR_REGR.R:255
+msgid "Coefficient"
+msgstr ""
+"Coeficiente"
+
+#: STATS_PROPOR_REGR.R:255
+msgid "Std. Error"
+msgstr ""
+"Erro Padrão"
+
+#: STATS_PROPOR_REGR.R:255
+msgid "Z Value"
+msgstr ""
+"Valor Z"
+
+#: STATS_PROPOR_REGR.R:255
+msgid "Sig."
+msgstr ""
+"Sig."
+
+#: STATS_PROPOR_REGR.R:257
+#: STATS_PROPOR_REGR.R:258
+msgid "Mean Coefficients"
+msgstr ""
+"Coeficientes de Média"
+
+#: STATS_PROPOR_REGR.R:262
+#: STATS_PROPOR_REGR.R:263
+msgid "Precision Coefficients"
+msgstr ""
+"Coeficientes de Precisão"
+
+#: STATS_PROPOR_REGR.R:288
+msgid "An output dataset was specified but no variables were requested"
+msgstr ""
+"Um conjunto de dados de saída foi especificado, mas nenhuma variável foi solicitada"
+
+#: STATS_PROPOR_REGR.R:328
+msgid "Fitted Values, Type=%s"
+msgstr ""
+"Valores Ajustados, Tipo=%s"
+
+#: STATS_PROPOR_REGR.R:332
+msgid "Residuals, Type=%s"
+msgstr ""
+"Resíduos, Tipo=%s"
+
+#: STATS_PROPOR_REGR.R:349
+msgid "The active dataset must have a name if creating new datasets"
+msgstr ""
+"O conjunto de dados ativo deve ter um nome se estiver criando novos conjuntos de dados"
+
+#: STATS_PROPOR_REGR.R:353
+msgid "One or more specified output dataset names are already in use"
+msgstr ""
+"Um ou mais nomes de conjuntos de dados de saída especificados já estão em uso"
+
+#: STATS_PROPOR_REGR.R:430
+msgid "End of procedure"
+msgstr ""
+"Fim do procedimento"
+
+#: STATS_PROPOR_REGR.R:457
+msgid "Message Number"
+msgstr ""
+"Número da mensagem"
+
+
