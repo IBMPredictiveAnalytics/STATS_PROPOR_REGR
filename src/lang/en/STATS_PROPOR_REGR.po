@@ -1,0 +1,215 @@
+#/***********************************************************************
+# * Licensed Materials - Property of IBM 
+# *
+# * IBM SPSS Products: Statistics Common
+# *
+# * (C) Copyright IBM Corp. 1989, 2014
+# *
+# * US Government Users Restricted Rights - Use, duplication or disclosure
+# * restricted by GSA ADP Schedule Contract with IBM Corp. 
+# ************************************************************************/
+
+# NLS_ENCODING=UTF-8
+# IBMUPYTH
+
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: STATS_PROPOR_REGR.R:116
+#: STATS_PROPOR_REGR.R:192
+msgid "Proportional Variable Regression"
+msgstr ""
+
+#: STATS_PROPOR_REGR.R:117
+msgid "Proportional Variable Regression: Warnings"
+msgstr ""
+
+#: STATS_PROPOR_REGR.R:122
+msgid "The R %s package is required but could not be loaded."
+msgstr ""
+
+#: STATS_PROPOR_REGR.R:133
+msgid "A dataset name must be specified if residuals or fitted values are requested"
+msgstr ""
+
+#: STATS_PROPOR_REGR.R:146
+msgid "The offset variable must have a scale (continuous) measurement level"
+msgstr ""
+
+#: STATS_PROPOR_REGR.R:196
+msgid "Dependent Variable"
+msgstr ""
+
+#: STATS_PROPOR_REGR.R:197
+msgid "Link Function"
+msgstr ""
+
+#: STATS_PROPOR_REGR.R:198
+msgid "Precision Model Link Function"
+msgstr ""
+
+#: STATS_PROPOR_REGR.R:199
+msgid "Offset"
+msgstr ""
+
+#: STATS_PROPOR_REGR.R:200
+msgid "Missing Value Treatment"
+msgstr ""
+
+#: STATS_PROPOR_REGR.R:201
+msgid "Estimator Type"
+msgstr ""
+
+#: STATS_PROPOR_REGR.R:202
+msgid "Results Dataset"
+msgstr ""
+
+#: STATS_PROPOR_REGR.R:203
+msgid "Saved Workspace"
+msgstr ""
+
+#: STATS_PROPOR_REGR.R:204
+msgid "Retain Workspace"
+msgstr ""
+
+#: STATS_PROPOR_REGR.R:205
+msgid "Creation Date"
+msgstr ""
+
+#: STATS_PROPOR_REGR.R:206
+msgid "Convergence"
+msgstr ""
+
+#: STATS_PROPOR_REGR.R:207
+msgid "Cases"
+msgstr ""
+
+#: STATS_PROPOR_REGR.R:208
+msgid "Valid Cases"
+msgstr ""
+
+#: STATS_PROPOR_REGR.R:209
+msgid "Log-Likelihood"
+msgstr ""
+
+#: STATS_PROPOR_REGR.R:210
+msgid "Degrees of Freedom"
+msgstr ""
+
+#: STATS_PROPOR_REGR.R:211
+msgid "Pseudo R=Squared"
+msgstr ""
+
+#: STATS_PROPOR_REGR.R:212
+msgid "AIC"
+msgstr ""
+
+#: STATS_PROPOR_REGR.R:213
+msgid "BIC"
+msgstr ""
+
+#: STATS_PROPOR_REGR.R:214
+msgid "Iterations"
+msgstr ""
+
+#: STATS_PROPOR_REGR.R:215
+msgid "Fisher Scoring Iterations"
+msgstr ""
+
+#: STATS_PROPOR_REGR.R:219
+msgid "Maximum Likelihood"
+msgstr ""
+
+#: STATS_PROPOR_REGR.R:220
+msgid "ML Bias Corrected"
+msgstr ""
+
+#: STATS_PROPOR_REGR.R:221
+msgid "ML Bias Reduced"
+msgstr ""
+
+#: STATS_PROPOR_REGR.R:228
+#: STATS_PROPOR_REGR.R:231
+#: STATS_PROPOR_REGR.R:232
+#: STATS_PROPOR_REGR.R:240
+msgid "--NA--"
+msgstr ""
+
+#: STATS_PROPOR_REGR.R:233
+#: STATS_PROPOR_REGR.R:235
+msgid "Yes"
+msgstr ""
+
+#: STATS_PROPOR_REGR.R:233
+#: STATS_PROPOR_REGR.R:235
+msgid "No"
+msgstr ""
+
+#: STATS_PROPOR_REGR.R:248
+#: STATS_PROPOR_REGR.R:249
+#: STATS_PROPOR_REGR.R:249
+msgid "Summary"
+msgstr ""
+
+#: STATS_PROPOR_REGR.R:250
+msgid "Computations done by R package betareg"
+msgstr ""
+
+#: STATS_PROPOR_REGR.R:255
+msgid "Coefficient"
+msgstr ""
+
+#: STATS_PROPOR_REGR.R:255
+msgid "Std. Error"
+msgstr ""
+
+#: STATS_PROPOR_REGR.R:255
+msgid "Z Value"
+msgstr ""
+
+#: STATS_PROPOR_REGR.R:255
+msgid "Sig."
+msgstr ""
+
+#: STATS_PROPOR_REGR.R:257
+#: STATS_PROPOR_REGR.R:258
+msgid "Mean Coefficients"
+msgstr ""
+
+#: STATS_PROPOR_REGR.R:262
+#: STATS_PROPOR_REGR.R:263
+msgid "Precision Coefficients"
+msgstr ""
+
+#: STATS_PROPOR_REGR.R:288
+msgid "An output dataset was specified but no variables were requested"
+msgstr ""
+
+#: STATS_PROPOR_REGR.R:328
+msgid "Fitted Values, Type=%s"
+msgstr ""
+
+#: STATS_PROPOR_REGR.R:332
+msgid "Residuals, Type=%s"
+msgstr ""
+
+#: STATS_PROPOR_REGR.R:349
+msgid "The active dataset must have a name if creating new datasets"
+msgstr ""
+
+#: STATS_PROPOR_REGR.R:353
+msgid "One or more specified output dataset names are already in use"
+msgstr ""
+
+#: STATS_PROPOR_REGR.R:430
+msgid "End of procedure"
+msgstr ""
+
+#: STATS_PROPOR_REGR.R:457
+msgid "Message Number"
+msgstr ""
+
+
