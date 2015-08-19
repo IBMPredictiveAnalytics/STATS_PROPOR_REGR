@@ -1,0 +1,261 @@
+#/***********************************************************************
+# * Licensed Materials - Property of IBM 
+# *
+# * IBM SPSS Products: Statistics Common
+# *
+# * (C) Copyright IBM Corp. 1989, 2014
+# *
+# * US Government Users Restricted Rights - Use, duplication or disclosure
+# * restricted by GSA ADP Schedule Contract with IBM Corp. 
+# ************************************************************************/
+
+# NLS_ENCODING=UTF-8
+# IBMUPYTH
+
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: STATS_PROPOR_REGR.R:116
+#: STATS_PROPOR_REGR.R:192
+msgid "Proportional Variable Regression"
+msgstr ""
+"Пропорциональная регрессия переменной"
+
+#: STATS_PROPOR_REGR.R:117
+msgid "Proportional Variable Regression: Warnings"
+msgstr ""
+"Пропорциональная регрессия переменной: Предупреждения"
+
+#: STATS_PROPOR_REGR.R:122
+msgid "The R %s package is required but could not be loaded."
+msgstr ""
+"Необходим пакет R %s, но его не удалось загрузить."
+
+#: STATS_PROPOR_REGR.R:133
+msgid "A dataset name must be specified if residuals or fitted values are requested"
+msgstr ""
+"Должно быть задано имя набора данных, если затребованы остатки или подогнанные значения"
+
+#: STATS_PROPOR_REGR.R:146
+msgid "The offset variable must have a scale (continuous) measurement level"
+msgstr ""
+"У переменной смещения должен быть количественный (непрерывный) тип измерений."
+
+#: STATS_PROPOR_REGR.R:196
+msgid "Dependent Variable"
+msgstr ""
+"Зависимая переменная"
+
+#: STATS_PROPOR_REGR.R:197
+msgid "Link Function"
+msgstr ""
+"Функция связи"
+
+#: STATS_PROPOR_REGR.R:198
+msgid "Precision Model Link Function"
+msgstr ""
+"Функция связи модели точности"
+
+#: STATS_PROPOR_REGR.R:199
+msgid "Offset"
+msgstr ""
+"Смещение"
+
+#: STATS_PROPOR_REGR.R:200
+msgid "Missing Value Treatment"
+msgstr ""
+"Способ обработки пропущенных значений"
+
+#: STATS_PROPOR_REGR.R:201
+msgid "Estimator Type"
+msgstr ""
+"Тип оценок"
+
+#: STATS_PROPOR_REGR.R:202
+msgid "Results Dataset"
+msgstr ""
+"Набор данных результатов"
+
+#: STATS_PROPOR_REGR.R:203
+msgid "Saved Workspace"
+msgstr ""
+"Сохраненное рабочее пространство"
+
+#: STATS_PROPOR_REGR.R:204
+msgid "Retain Workspace"
+msgstr ""
+"Сохранять рабочее пространство"
+
+#: STATS_PROPOR_REGR.R:205
+msgid "Creation Date"
+msgstr ""
+"Дата создания"
+
+#: STATS_PROPOR_REGR.R:206
+msgid "Convergence"
+msgstr ""
+"Сходимость"
+
+#: STATS_PROPOR_REGR.R:207
+msgid "Cases"
+msgstr ""
+"Наблюдения"
+
+#: STATS_PROPOR_REGR.R:208
+msgid "Valid Cases"
+msgstr ""
+"Валидные наблюдения"
+
+#: STATS_PROPOR_REGR.R:209
+msgid "Log-Likelihood"
+msgstr ""
+"Лог-правдоподобие"
+
+#: STATS_PROPOR_REGR.R:210
+msgid "Degrees of Freedom"
+msgstr ""
+"Степени свободы"
+
+#: STATS_PROPOR_REGR.R:211
+msgid "Pseudo R=Squared"
+msgstr ""
+"Псевдо R-квадрат"
+
+#: STATS_PROPOR_REGR.R:212
+msgid "AIC"
+msgstr ""
+"AIC"
+
+#: STATS_PROPOR_REGR.R:213
+msgid "BIC"
+msgstr ""
+"BIC"
+
+#: STATS_PROPOR_REGR.R:214
+msgid "Iterations"
+msgstr ""
+"Итерации"
+
+#: STATS_PROPOR_REGR.R:215
+msgid "Fisher Scoring Iterations"
+msgstr ""
+"Итерации скоринга Фишера"
+
+#: STATS_PROPOR_REGR.R:219
+msgid "Maximum Likelihood"
+msgstr ""
+"Максимальное правдоподобие"
+
+#: STATS_PROPOR_REGR.R:220
+msgid "ML Bias Corrected"
+msgstr ""
+"С коррекцией смещения ML"
+
+#: STATS_PROPOR_REGR.R:221
+msgid "ML Bias Reduced"
+msgstr ""
+"С сокращением смещения ML"
+
+#: STATS_PROPOR_REGR.R:228
+#: STATS_PROPOR_REGR.R:231
+#: STATS_PROPOR_REGR.R:232
+#: STATS_PROPOR_REGR.R:240
+msgid "--NA--"
+msgstr ""
+"--НП--"
+
+#: STATS_PROPOR_REGR.R:233
+#: STATS_PROPOR_REGR.R:235
+msgid "Yes"
+msgstr ""
+"Да"
+
+#: STATS_PROPOR_REGR.R:233
+#: STATS_PROPOR_REGR.R:235
+msgid "No"
+msgstr ""
+"Нет"
+
+#: STATS_PROPOR_REGR.R:248
+#: STATS_PROPOR_REGR.R:249
+#: STATS_PROPOR_REGR.R:249
+msgid "Summary"
+msgstr ""
+"Итог"
+
+#: STATS_PROPOR_REGR.R:250
+msgid "Computations done by R package betareg"
+msgstr ""
+"Вычисления выполнены пакетом R betareg"
+
+#: STATS_PROPOR_REGR.R:255
+msgid "Coefficient"
+msgstr ""
+"Коэффициент"
+
+#: STATS_PROPOR_REGR.R:255
+msgid "Std. Error"
+msgstr ""
+"Стд. ошибка"
+
+#: STATS_PROPOR_REGR.R:255
+msgid "Z Value"
+msgstr ""
+"Z-значение"
+
+#: STATS_PROPOR_REGR.R:255
+msgid "Sig."
+msgstr ""
+"Значимость"
+
+#: STATS_PROPOR_REGR.R:257
+#: STATS_PROPOR_REGR.R:258
+msgid "Mean Coefficients"
+msgstr ""
+"Коэффициенты среднего"
+
+#: STATS_PROPOR_REGR.R:262
+#: STATS_PROPOR_REGR.R:263
+msgid "Precision Coefficients"
+msgstr ""
+"Коэффициенты точности"
+
+#: STATS_PROPOR_REGR.R:288
+msgid "An output dataset was specified but no variables were requested"
+msgstr ""
+"Был задан выходной набор данных, но не были затребованы переменные"
+
+#: STATS_PROPOR_REGR.R:328
+msgid "Fitted Values, Type=%s"
+msgstr ""
+"Подогнанные значения; тип=%s"
+
+#: STATS_PROPOR_REGR.R:332
+msgid "Residuals, Type=%s"
+msgstr ""
+"Остатки; тип=%s"
+
+#: STATS_PROPOR_REGR.R:349
+msgid "The active dataset must have a name if creating new datasets"
+msgstr ""
+"У активного набора данных должно быть имя, если создаются новые наборы данных"
+
+#: STATS_PROPOR_REGR.R:353
+msgid "One or more specified output dataset names are already in use"
+msgstr ""
+"Одно или несколько имен наборов данных уже используются"
+
+#: STATS_PROPOR_REGR.R:430
+msgid "End of procedure"
+msgstr ""
+"Конец процедуры"
+
+#: STATS_PROPOR_REGR.R:457
+msgid "Message Number"
+msgstr ""
+"Номер сообщения"
+
+
