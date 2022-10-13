@@ -1,17 +1,18 @@
 Name: STATS PROPOR REGR
+Display-Name: Predicted Values for Proportional Regression
 Dialog-Specs: STATS_PROPOR_REGR.spd
 Command-Specs: STATS_PROPOR_REGR.xml
 Code-Files: STATS_PROPOR_REGR.R
 Misc-Files: extsyntax.css,markdown.html,IBMdialogicon.png
 Summary: Linear models for dependent variables that are proportions
 Description: This procedure estimates a  linear model with a link func
- tion for equations where the dependent variable is a proportion with
+ tion for equations where the dependent variable is a proportion with 
  a beta distribution.  Mean and precision parameters of the distributi
  on are estimated.  Residuals and fitted values can be saved.  The est
  imated model can be saved and used for predictions on new data with t
  he STATS PROPOR REGRPRED extension command.
 Author: JKP, IBM SPSS
-Version: 1.0.6
+Version: 1.0.5
 Product-Version: 18
 Date: 09/30/2013
 Categories: statistics
